@@ -842,7 +842,7 @@ public SimpleDateFormat sdf = new SimpleDateFormat("EEEE, dd MMM yyyy", id);
                          break;
                      }
                  }
-                 WebElement lanjut = driver.findElement(By.className("itButton"));
+                 WebElement lanjut = driver.findElement(By.cssSelector("input[type='submit'][name='booking']"));
                  lanjut.click();
                  
                  //Ngisi Tikete 
